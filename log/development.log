@@ -176,3 +176,8 @@ bin/rails:3:in `<main>'
   Rendering /usr/local/rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
   Rendered /usr/local/rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (3.8ms)
   Rendered /usr/local/rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (68.1ms)
+DEPRECATION WARNING: In Rails 5.1, The `:subdomains` option of HSTS config will be treated as true if
+unspecified. Set `config.ssl_options = { hsts: { subdomains: false } }` to opt out
+of this behavior.
+ (called from <top (required)> at /home/alicebrunel/omniauth_readme-online-web-sp-000/config/environment.rb:5)
+DEPRECATION WARNING: ActiveRecord::Base.raise_in_transactional_callbacks= is deprecated, has no effect and will be removed without replacement. (called from require at /usr/local/rvm/rubies/ruby-2.6.1/lib/ruby/site_ruby/2.6.0/rubygems/core_ext/kernel_require.rb:54)
